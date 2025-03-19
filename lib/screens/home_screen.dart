@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(centerTitle: true,
       backgroundColor: Colors.transparent,
-        title: const Text('Weather'),
+        title: const Text('WEATHER'),
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),

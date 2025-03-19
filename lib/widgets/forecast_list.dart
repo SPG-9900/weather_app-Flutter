@@ -16,7 +16,7 @@ class ForecastList extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Text(
-            '3-Day Forecast',
+            '3-DAYS FORECAST',
             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.bold,
                   color: Colors.blueGrey[800],

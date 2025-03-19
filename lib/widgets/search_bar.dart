@@ -51,7 +51,7 @@ class _SearchBarBoxState extends State<SearchBarBox> {
             child: TextField(
               controller: _controller,
               decoration: InputDecoration(
-                hintText: 'Enter city name',
+                hintText: 'ENTER CITY NAME',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -79,7 +79,7 @@ class _SearchBarBoxState extends State<SearchBarBox> {
                       valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
                     ),
                   )
-                : const Text('Search'),
+                : const Text('SEARCH'),
           ),
         ],
       ),
