@@ -24,7 +24,7 @@ class CurrentWeather extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),
         gradient: LinearGradient(
-          colors: [Colors.blue.shade800, Colors.blue.shade300],
+          colors: [Colors.green.shade800, Colors.blue.shade300],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
